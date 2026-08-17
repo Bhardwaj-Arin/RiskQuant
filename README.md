@@ -12,9 +12,9 @@ to individual risk factors.
 
 ### 🚀 Interactive Dashboard
 
-**Live Demo:** riskquant ∙ main ∙ dashboard/app.py
+**Live Demo:** [RiskQuant Dashboard](https://YOUR-STREAMLIT-APP-URL.streamlit.app/)
 
-**GitHub:** [https://github.com/Bhardwaj-Arin/RiskQuant]
+**GitHub:** [RiskQuant Repository](https://github.com/Bhardwaj-Arin/RiskQuant)
 
 The Streamlit dashboard allows users to explore the complete project without
 opening the source code.
