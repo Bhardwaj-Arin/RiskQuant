@@ -1,0 +1,4 @@
+model_id,test,n_obs,n_exceptions,observed_rate,target_rate,lr_statistic,p_value,reject_null_at_5pct,christ_test,christ_n_obs,christ_n00,christ_n01,christ_n10,christ_n11,christ_lr_statistic,christ_p_value,christ_reject_null_at_5pct,unconditional_coverage_ok,independence_ok,overall_pass
+historical_var,Kupiec POF,2358,32,0.013570822731128074,0.010000000000000009,2.7319750996581433,0.09835757864860539,False,Christoffersen Independence,2358,2295,30,30,2,3.135176055131126,0.07662011380090628,False,True,True,True
+parametric_var,Kupiec POF,2358,31,0.013146734520780322,0.010000000000000009,2.1460848254588996,0.1429339709563835,False,Christoffersen Independence,2358,2297,29,29,2,3.346522275766972,0.06734715788900669,False,True,True,True
+ewma_var,Kupiec POF,2358,37,0.015691263782866838,0.010000000000000009,6.575703801738712,0.010338011666158664,True,Christoffersen Independence,2358,2285,35,35,2,2.2204228625885207,0.13619575186045985,False,False,True,False

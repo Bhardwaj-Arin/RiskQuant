@@ -1,0 +1,42 @@
+# Hypothetical and historical-style stress scenarios.
+# Shocks are expressed as fractional risk-factor moves, applied to the
+# risk-factor -> portfolio-return mapping in stress/scenarios.py.
+# RATES_10Y shock is a yield change in decimal (e.g. 0.01 = +100bps),
+# all other factors are simple returns.
+
+scenarios:
+  - id: EQUITY_CRASH_2008_STYLE
+    description: "Historical-style equity crash, informed by 2008 magnitude"
+    shocks:
+      EQUITY_INDEX: -0.20
+      RATES_10Y: -0.01
+      FX_USD: 0.05
+      OIL: -0.30
+      GOLD: 0.08
+
+  - id: RATES_SHOCK_UP
+    description: "Hypothetical sharp rate hike shock"
+    shocks:
+      EQUITY_INDEX: -0.08
+      RATES_10Y: 0.02
+      FX_USD: 0.03
+      OIL: -0.05
+      GOLD: -0.04
+
+  - id: OIL_SUPPLY_SHOCK
+    description: "Hypothetical oil-supply-driven shock"
+    shocks:
+      EQUITY_INDEX: -0.05
+      RATES_10Y: 0.005
+      FX_USD: -0.02
+      OIL: 0.35
+      GOLD: 0.02
+
+  - id: FX_CRISIS
+    description: "Hypothetical EM/FX stress with flight to safety"
+    shocks:
+      EQUITY_INDEX: -0.12
+      RATES_10Y: -0.005
+      FX_USD: 0.10
+      OIL: -0.10
+      GOLD: 0.10

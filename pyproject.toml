@@ -1,0 +1,9 @@
+[project]
+name = "riskforge-qrm"
+version = "0.1.0"
+description = "Educational quantitative market-risk modelling, validation and reverse stress-testing framework"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,21 @@
+scenario_id,description,risk_factor,shock,factor_contribution,portfolio_loss
+EQUITY_CRASH_2008_STYLE,"Historical-style equity crash, informed by 2008 magnitude",EQUITY_INDEX,-0.2,-0.09000000000000001,0.10650000000000001
+EQUITY_CRASH_2008_STYLE,"Historical-style equity crash, informed by 2008 magnitude",RATES_10Y,-0.01,-0.002,0.10650000000000001
+EQUITY_CRASH_2008_STYLE,"Historical-style equity crash, informed by 2008 magnitude",FX_USD,0.05,0.0075,0.10650000000000001
+EQUITY_CRASH_2008_STYLE,"Historical-style equity crash, informed by 2008 magnitude",OIL,-0.3,-0.03,0.10650000000000001
+EQUITY_CRASH_2008_STYLE,"Historical-style equity crash, informed by 2008 magnitude",GOLD,0.08,0.008,0.10650000000000001
+RATES_SHOCK_UP,Hypothetical sharp rate hike shock,EQUITY_INDEX,-0.08,-0.036000000000000004,0.036500000000000005
+RATES_SHOCK_UP,Hypothetical sharp rate hike shock,RATES_10Y,0.02,0.004,0.036500000000000005
+RATES_SHOCK_UP,Hypothetical sharp rate hike shock,FX_USD,0.03,0.0045,0.036500000000000005
+RATES_SHOCK_UP,Hypothetical sharp rate hike shock,OIL,-0.05,-0.005000000000000001,0.036500000000000005
+RATES_SHOCK_UP,Hypothetical sharp rate hike shock,GOLD,-0.04,-0.004,0.036500000000000005
+OIL_SUPPLY_SHOCK,Hypothetical oil-supply-driven shock,EQUITY_INDEX,-0.05,-0.022500000000000003,-0.012499999999999994
+OIL_SUPPLY_SHOCK,Hypothetical oil-supply-driven shock,RATES_10Y,0.005,0.001,-0.012499999999999994
+OIL_SUPPLY_SHOCK,Hypothetical oil-supply-driven shock,FX_USD,-0.02,-0.003,-0.012499999999999994
+OIL_SUPPLY_SHOCK,Hypothetical oil-supply-driven shock,OIL,0.35,0.034999999999999996,-0.012499999999999994
+OIL_SUPPLY_SHOCK,Hypothetical oil-supply-driven shock,GOLD,0.02,0.002,-0.012499999999999994
+FX_CRISIS,Hypothetical EM/FX stress with flight to safety,EQUITY_INDEX,-0.12,-0.054,0.04
+FX_CRISIS,Hypothetical EM/FX stress with flight to safety,RATES_10Y,-0.005,-0.001,0.04
+FX_CRISIS,Hypothetical EM/FX stress with flight to safety,FX_USD,0.1,0.015,0.04
+FX_CRISIS,Hypothetical EM/FX stress with flight to safety,OIL,-0.1,-0.010000000000000002,0.04
+FX_CRISIS,Hypothetical EM/FX stress with flight to safety,GOLD,0.1,0.010000000000000002,0.04

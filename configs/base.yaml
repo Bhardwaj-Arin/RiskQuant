@@ -1,0 +1,48 @@
+# RiskForge-QRM base configuration
+# All prototype assumptions live here, not scattered as magic numbers in code.
+
+project:
+  name: RiskForge-QRM
+  scope_statement: >
+    Educational prototype for quantitative market-risk modelling.
+    Not a production bank risk engine. Not a regulatory capital calculator.
+    Regulatory concepts (Basel/BIS) are used as learning references only.
+
+data:
+  risk_factors: [EQUITY_INDEX, RATES_10Y, FX_USD, OIL, GOLD]
+  start_date: "2015-01-01"
+  end_date: "2024-12-31"
+  source: synthetic   # synthetic | yfinance | csv
+  retrieved_at: null  # set at data-pull time
+
+portfolio:
+  id: demo_portfolio
+  horizon_days: 1
+  weights:
+    EQUITY_INDEX: 0.45
+    RATES_10Y: 0.20
+    FX_USD: 0.15
+    OIL: 0.10
+    GOLD: 0.10
+
+risk:
+  confidence: 0.99
+  window: 250          # rolling estimation window, trading days
+  min_train_window: 500 # minimum history before first out-of-sample forecast
+
+ewma:
+  lambda: 0.94          # RiskMetrics-style decay factor
+
+backtest:
+  significance_level: 0.05   # for Kupiec / Christoffersen tests
+
+stress:
+  target_loss: 0.10   # reverse-stress target: 10% portfolio loss
+  bounds:
+    EQUITY_INDEX: [-0.30, 0.0]
+    RATES_10Y: [0.0, 0.03]      # +0 to +300bps expressed as decimal yield change
+    FX_USD: [-0.15, 0.15]
+    OIL: [-0.25, 0.25]
+    GOLD: [-0.25, 0.25]
+
+model_version: "0.1.0"
