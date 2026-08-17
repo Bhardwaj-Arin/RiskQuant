@@ -108,31 +108,6 @@ RiskForge-QRM/
 
 The Streamlit presentation layer has an interview-oriented visual dashboard with an executive overview, interactive VaR model comparison, backtesting/validation, stress testing, reverse stress, risk attribution, and methodology/assumptions pages. See `dashboard/README.md`.
 
-## Dashboard Preview
-
-### Project Story
-
-![Project Story](docs/screenshots/overview.png)
-
-### VaR Model Lab
-
-![VaR Model Lab](docs/screenshots/var-model-lab.png)
-
-### Backtesting & Validation
-
-![Backtesting](docs/screenshots/backtesting.png)
-
-### Stress Testing
-
-![Stress Testing](docs/screenshots/stress-testing.png)
-
-### Reverse Stress
-
-![Reverse Stress](docs/screenshots/reverse-stress.png)
-
-### Risk Attribution
-
-![Risk Attribution](docs/screenshots/risk-attribution.png)
 
 ## Key Results
 
