@@ -12,7 +12,7 @@ to individual risk factors.
 
 ### 🚀 Interactive Dashboard
 
-**Live Demo:** [RiskQuant Dashboard](riskquant-tjj79b6qn44jpsytkdwk57.streamlit.app/)
+**Live Demo:** [RiskQuant Dashboard](https://riskquant-tjj79b6qn44jpsytkdwk57.streamlit.app/)
 
 **GitHub:** [RiskQuant Repository](https://github.com/Bhardwaj-Arin/RiskQuant)
 
